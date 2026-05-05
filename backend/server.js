@@ -40,7 +40,7 @@ app.get('/health', (req, res) => {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin: 'https://ai-voice-agent-emtt21m0g-shivam-bughunters-projects.vercel.app/',
     methods: ['GET', 'POST'],
   },
   maxHttpBufferSize: 1e6, // 1MB max for audio chunks
