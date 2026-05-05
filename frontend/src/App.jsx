@@ -138,7 +138,7 @@ function App() {
         {/* Header */}
         <header className="header">
           <h1 className="title">AI Voice Agent</h1>
-          <p className="subtitle">Real-time conversational AI powered by GPT + Deepgram + ElevenLabs</p>
+          <p className="subtitle">Real-time conversational AI powered by Groq + Deepgram + ElevenLabs</p>
           <div className="status-row">
             <span className={`status-badge ${isConnected ? 'connected' : 'disconnected'}`}>
               {isConnected ? '● Connected' : '○ Disconnected'}
